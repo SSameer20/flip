@@ -1,0 +1,24 @@
+@import url("@solana/wallet-adapter-react-ui/styles.css");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #161816;
+  --color: #e3e5e2;
+  --color-marshland-50: #f6f7f6;
+  --color-marshland-100: #e3e5e2;
+  --color-marshland-200: #c6cac5;
+  --color-marshland-300: #a2a8a0;
+  --color-marshland-400: #7d857c;
+  --color-marshland-500: #636a62;
+  --color-marshland-600: #4e544d;
+  --color-marshland-700: #404540;
+  --color-marshland-800: #363936;
+  --color-marshland-900: #2f322f;
+  --color-marshland-950: #161816;
+}
+body {
+  background-color: var(--background);
+  color: var(--color);
+}
